@@ -79,5 +79,5 @@ gem "stripe"
 gem 'kaminari-core', '~> 1.2.2'
 gem 'kaminari', '~> 1.2.2'
 gem "rails_admin"
-
+gem 'pg', '1.3.5', group: :production
 gem "sassc-rails"
