@@ -20,7 +20,8 @@ test:
   <<: *default
   database: db/test.sqlite3
 
-production:<<: *default
-database: db/production.sqlite3
-url: <%= ENV["DATABASE_URL"] %>
-adapter: postgresql
+production:
+  <<: *default
+  database: db/production.sqlite3
+  url: <%= ENV["DATABASE_URL"] %>
+  adapter: postgresql
