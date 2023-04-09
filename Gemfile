@@ -76,3 +76,8 @@ gem "cssbundling-rails"
 gem "name_of_person"
 gem "sidekiq", "~> 6.5", ">= 6.5.4"
 gem "stripe"
+gem 'kaminari-core', '~> 1.2.2'
+gem 'kaminari', '~> 1.2.2'
+gem "rails_admin"
+
+gem "sassc-rails"
